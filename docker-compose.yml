@@ -1,0 +1,12 @@
+version: "3"
+services:
+
+  webserver:
+    build: .
+    ports: 
+    - '8000:8080'
+
+
+  redis-server:
+    image: 'redis'
+
